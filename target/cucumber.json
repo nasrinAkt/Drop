@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify user can select particular item",
+        "description": "",
+        "id": "this-is-a-feature-for-selecting-item;verify-user-can-select-particular-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1381769600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open \u003c\"URL\"\u003e dr",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 7
+                }
+              ],
+              "location": "Drop_Select.open_dr(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14611017000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "select item from dropdown click specific item",
+            "match": {
+              "location": "Drop_Select.select_item_from_dropdown_click_specific_item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify user can select particular item",
+            "match": {
+              "location": "Drop_Select.verify_user_can_select_particular_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "This is a feature for selecting item",
+    "description": "",
+    "id": "this-is-a-feature-for-selecting-item",
+    "keyword": "Feature",
+    "uri": "Drop_Select.feature"
+  }
+]
